@@ -14,8 +14,7 @@
     </head>
 
     <body onload="setInterval('render()', 1000)">
-        <jsp:useBean id="myUser" class="server.UserDTO" scope="session" />
-        <div style="float:right;" id="exit" onclick="logout();">Logout</div><br/>
+        <button style="float:right;" id="exit" onclick="logout();">Logout</button>
 
         <div id="messagePage">
                 <input placeholder="Message" name="message" id="message"/><br/>

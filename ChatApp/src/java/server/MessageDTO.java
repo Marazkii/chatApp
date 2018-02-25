@@ -9,15 +9,11 @@ package server;
  *
  * @author Asmaa
  */
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+
 public class MessageDTO {
 
-    @SerializedName("username")
-    @Expose
+   
     private String username;
-    @SerializedName("message")
-    @Expose
     private String message;
 
     public String getMessage() {
